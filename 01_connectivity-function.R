@@ -8,7 +8,7 @@
 #'
 #' @examples
 #' P <- generateP(size = 25, norm = TRUE, rate = 1)
-#'
+#' 
 
 GenerateConn <- function(size, norm = TRUE, rate) {
   # creates numbered size * size matrix.]
