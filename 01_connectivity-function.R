@@ -8,7 +8,7 @@
 #'
 #' @examples
 #' P <- generateP(size = 25, norm = TRUE, rate = 1)
-#' this is a test - will this count as a commit. 
+#'  
 
 GenerateConn <- function(size, norm = TRUE, rate) {
   # creates numbered size * size matrix.]
@@ -51,4 +51,5 @@ GenerateConn <- function(size, norm = TRUE, rate) {
   
   return(dist_mat)
 }
+
 
